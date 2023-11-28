@@ -1,0 +1,122 @@
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#app h1{
+    width: 100%;
+}
+
+#equipe-1, #equipe-2{
+    padding-top: 20px;
+    width: 22%;
+    min-height: 70vh;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#app #equipe-1{
+    background-color: #56c7b5;
+}
+
+#app #equipe-2{
+    order: 3;
+    background-color: #8c21c5;
+}
+
+#classes-selection{
+    width: 56%;
+
+    background-color: #005659;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.classes-article{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.class-img {
+    margin: 10px;
+    width: 115px;
+    height: 115px;
+    border: #005659 5px solid;
+    border-radius: 5px;
+}
+
+.classe-infos {
+    position: absolute;
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    z-index: 1;
+    white-space: pre-line;
+}
+
+.spells-section{
+    justify-content: end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 350px;
+}
+
+.spell-img {
+    width: 64px;
+    height: 64px;
+    border: none;
+ }
+ 
+ .spell-infos {
+    position: absolute;
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    z-index: 1;
+    white-space: pre-line;
+}
+
+.select-button{
+    width: max-content;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #a78800;
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.select-button:hover{
+    background-color: #4e4000;
+}
+
+.selected-class {
+    border: #a78800 5px solid;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
