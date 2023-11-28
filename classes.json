@@ -6,7 +6,7 @@
       "hp" : 1000,
       "actionPoints" : 12,
       "wakfuPoints" : 6,
-      "image": "../img/sacrier/sacrier.jpg",
+      "image": "img/sacrier/sacrier.jpg",
       "description": {
         "en": "It's no use trying to beat a Sacrier into submission - they become more powerful with each attack they receive! Nobody takes the motto 'no pain, no gain' more seriously than these warriors. Happy to haunt the front lines, ready to draw first blood, they're the perfect allies for those long, relentless battles.",
         "fr": "Les Sacrieurs ne craignent pas les blessures. Au contraire : ils tirent leur puissance des coups qu'on leur inflige ! Adeptes des longues soirées sang pour sang guerrières, ils font figure d'alliés précieux dans les mêlées franches. En un mot : pour l'adversaire, le disciple de Sacrieur est une véritable plaie !"
